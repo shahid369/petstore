@@ -62,13 +62,13 @@ Running JPetStore sample under Tomcat (using the [cargo-maven2-plugin](https://c
   > | glassfish4     | Running under the GlassFish 4(Java EE 7) |
   > | resin          | Running under the Resin 4 |
 
-- Run application in browser http://localhost:8080/jpetstore/ 
+- Run application in browser http://localhost:8090/jpetstore/ 
 - Press Ctrl-C to stop the server.
 
 ## Run on Docker
 ```
 docker build . -t jpetstore
-docker run -p 8080:8080 jpetstore
+docker run -p 8090:8090 jpetstore
 ```
 or with Docker Compose:
 ```

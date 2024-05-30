@@ -22,5 +22,5 @@ services:
     build:
       context: .
     ports:
-      - 8080:8080
+      - 8090:8090
     restart: always
